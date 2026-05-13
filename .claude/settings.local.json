@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /b \"C:\\\\ai_tf_work\\\\PDF_WORK\")",
+      "Bash(findstr /R \"^pdf ^xlsx ^exceljs ^typescript ^ts-node\")",
+      "Bash(npx tsc *)",
+      "Bash(npx vitest *)",
+      "Bash(npx ts-node *)"
+    ]
+  }
+}
